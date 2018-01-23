@@ -1,0 +1,35 @@
+.slogan {
+    color: white;
+    text-align: right;
+}
+
+.menu {
+    background-color: #f6bc30;
+}
+
+.menu-lateral {
+    background-color: #f8f4ee;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.comida-foto {
+    width: 30%;
+    padding: 1px;
+}
+
+.receta-principal {
+    background-color: #fef6e2;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.fecha {
+    color: #e1a61a;
+}
+
+.deja-comentario {
+    height: 5rem;
+}
