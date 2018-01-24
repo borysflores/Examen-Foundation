@@ -1,3 +1,17 @@
+body {
+ background-image: url("../img/fondo-blog-comida.jpg");
+    background-attachment: fixed;
+    overflow: scroll;
+}
+
+.contenedor-principal {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.callout {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
 .slogan {
     color: white;
     text-align: right;
@@ -8,22 +22,17 @@
 }
 
 .menu-lateral {
-    background-color: #f8f4ee;
     border-radius: 6px;
     margin-top: 10px;
-    padding: 10px;
 }
 
-.comida-foto {
-    width: 30%;
-    padding: 1px;
+.img-comida {
+    padding: 10px;
 }
 
 .receta-principal {
-    background-color: #fef6e2;
     border-radius: 6px;
     margin-top: 10px;
-    padding: 10px;
 }
 
 .fecha {
@@ -32,4 +41,33 @@
 
 .deja-comentario {
     height: 5rem;
+}
+
+.historial {
+    list-style: none;
+}
+
+.comentario-usuario {
+    padding: 0 15px 0 15px;
+}
+
+.avatar {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.comentario-texto {
+    margin-left: 15px;
+    padding: auto;
+}
+
+footer {
+    background-color: #f6bc30;
+    height: 3rem;
+}
+
+.texto-footer{
+    color: white;
+    margin: 15px;
 }

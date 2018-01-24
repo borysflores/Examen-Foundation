@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/estilo.css" media="screen" charset="utf-8">
 </head>
 <body>
-    <div class="row">
+    <div class="row contenedor-principal">
         <div class="menu small-12 columns">
                 <div class="small-6 medium-4 large-4 columns">
                     <img src="img/logo-comid.png"/>
@@ -16,91 +16,221 @@
                 </div>
         </div>
 
-        <div class="medium-4 large-4 columns menu-lateral hide-for-small-only">
-            <div>
-                <h5>Buscador</h5>
-                <form>
-                    <fieldset>
+        <div class="small-12 columns">
+            <div class="row large-uncollapse">
+                <div class="large-4 medium-4 small-12 columns menu-lateral">
+                    <div class="callout">
+                        <h5>Buscador</h5>
                         <div class="row large-12 columns">
-                            <div class="row collapse">
-                                <div class="small-10 columns">
-                                    <input type="search" placeholder="Buscar...">
+                            <form>
+                                <fieldset>
+                                    <div class="row collapse">
+                                        <div class="small-10 medium-10 large-10 columns">
+                                            <input type="search" placeholder="Buscar...">
+                                        </div>
+                                        <div class="small-2 medium-2 large-2 columns">
+                                            <a href="#" class="button postfix">
+                                                <i class="fi-magnifying-glass"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <hr>
+                        <div class="small-12">
+                            <a href="#" class="large expanded button">Inicio</a>
+                            <a href="#" class="hollow large expanded button">Mi plato perfecto</a>
+                            <a href="#" class="hollow large expanded button">Mis recetaso</a>
+                        </div>
+                        <hr class="hide-for-small-only">
+                        <div class="row large-12 columns hide-for-small-only">
+                            <h5>Favoritos</h5>
+                            <div class="row">
+                                <div class="large-4 medium-6 img-comida">
+                                    <img src="img/comida1.jpg"/>
                                 </div>
-                                <div class="small-2 columns">
-                                    <a href="#" class="button postfix">
-                                        <i class="fi-magnifying-glass"></i>
-                                    </a>
+                                <div class="large-4 medium-6 img-comida">
+                                    <img src="img/comida2.jpg"/>
+                                </div>
+                                <div class="large-4 medium-6 img-comida">
+                                    <img src="img/comida3.jpg"/>
+                                </div>
+                                <div class="large-4 medium-6 img-comida">
+                                    <img src="img/comida4.jpg"/>
+                                </div>
+                                <div class="large-4 medium-6 img-comida">
+                                    <img src="img/comida5.jpg"/>
+                                </div>
+                                <div class="large-4 medium-6 img-comida">
+                                    <img src="img/comida6.jpg"/>
                                 </div>
                             </div>
                         </div>
-                    </fieldset>
-                </form>
-            </div>
-            <hr>
-            <div class="small-12">
-                <a href="#" class="large expanded button">Inicio</a>
-                <a href="#" class="hollow large expanded button">Mi plato perfecto</a>
-                <a href="#" class="hollow large expanded button">Mis recetaso</a>
-            </div>
-            <hr>
-            <div class="small-12">
-                <h5>Favoritos</h5>
-                <div class="row large-uncollapse">
-                    <div class="large-4 medium-6 columns">
-                        <img src="img/comida1.jpg"/>
-                    </div>
-                    <div class="large-4 medium-6 columns">
-                        <img src="img/comida2.jpg"/>
-                    </div>
-                    <div class="large-4 medium-6 columns">
-                        <img src="img/comida3.jpg"/>
+                        <hr class="hide-for-small-only">
+                        <div class="hide-for-small-only">
+                            <h5>Historial:</h5>
+                            <ul class="historial">
+                                <li><a href="#">Pasta con carne</a></li>
+                                <li><a href="#">Lasagna</a></li>
+                                <li><a href="#">Hamburguesa rellena</a></li>
+                                <li><a href="#">Tacos al pastor</a></li>
+                                <li><a href="#">Ensalada Cesar</a></li>
+                                <li><a href="#">Pescado al ajo</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <br>
-                <div class="row large-uncollapse">
-                    <div class="large-4 small-12 medium-6 columns">
-                        <img src="img/comida4.jpg"/>
-                    </div>
-                    <div class="large-4 small-12 medium-6 columns">
-                        <img src="img/comida5.jpg"/>
-                    </div>
-                    <div class="large-4 small-12 medium-6 columns">
-                        <img src="img/comida6.jpg"/>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="small-12 medium-8 large-8 receta-principal">
-            <h3><strong>Pizza casera</strong></h3>
-            <h6 class="fecha">20 de enero de 2018</h6>
-            <img src="img/pizza.jpg">
-            <section>
-                <h4>Ingredientes</h4>
-                <div class="ingredient-list card-sm">
-                    <ul>
-                        <li>2 tomates maduros(pelados y sin semilla)</li>
-                        <li>Queso fresco o mozzarella</li>
-                        <li>Orégano, sal y pimienta</li>
-                        <li>Jamón o Salame</li>
-                    </ul>
-                </div>
-                <p>En un bol colocar la harina espolvorear con la sal, hacer un hueco en el medio, y ahí colocar el aceite, empezar a agregar agua e ir uniendo, hasta que se haga una masa blanda pero que no se pegue en los dedos.</p>
-                <p>Aceitar una pizzera (de 25 a 26 cm de diámetro para ésta cantidad de harina), colocar la masa y con los dedos estirarla, llevar a horno caliente unos minutitos, retirar, y expandir el tomate al que se le ha quitado la piel, las semillas, se lo licúa condimenta con sal y orégano.</p>
-                <p>Llevar a secar unos minutitos al horno, para que se cocine el tomate luego colocar el queso, y las lojas de jamón, y pasar nuevamente por el horno hasta que el queso se derrita.</p>
-            </section>
-            <hr>
-            <form>
-                <div class="row">
-                    <div class="large-12 columns">
-                        <label>Dejanos un comentario:
-                            <textarea class="deja-comentario" placeholder="Comentario"></textarea>
-                        </label>
-                        <button type="submit" name="enviar" class="button expanded large-3 medium-4 small-6 right columns">Enviar</button>
+                <div class="large-8 medium-8 small-12 columns receta-principal">
+                    <div class="callout">
+                        <div class="small-12 columns">
+                            <h3><strong>Pizza casera</strong></h3>
+                            <h6 class="fecha">20 de enero de 2018</h6>
+                            <img src="img/pizza.jpg">
+                            <section>
+                                <h4>Ingredientes</h4>
+                                <div class="ingredient-list card-sm">
+                                    <ul>
+                                        <li>2 tomates maduros(pelados y sin semilla)</li>
+                                        <li>Queso fresco o mozzarella</li>
+                                        <li>Orégano, sal y pimienta</li>
+                                        <li>Jamón o Salame</li>
+                                    </ul>
+                                </div>
+                                <p>En un bol colocar la harina espolvorear con la sal, hacer un hueco en el medio, y ahí colocar el aceite, empezar a agregar agua e ir uniendo, hasta que se haga una masa blanda pero que no se pegue en los dedos.</p>
+                                <p>Aceitar una pizzera (de 25 a 26 cm de diámetro para ésta cantidad de harina), colocar la masa y con los dedos estirarla, llevar a horno caliente unos minutitos, retirar, y expandir el tomate al que se le ha quitado la piel, las semillas, se lo licúa condimenta con sal y orégano.</p>
+                                <p>Llevar a secar unos minutitos al horno, para que se cocine el tomate luego colocar el queso, y las lojas de jamón, y pasar nuevamente por el horno hasta que el queso se derrita.</p>
+                            </section>
+                            <hr>
+                            <form>
+                                <div class="row">
+                                    <div class="large-12 columns">
+                                        <label>Dejanos un comentario:
+                                            <textarea class="deja-comentario" placeholder="Comentario"></textarea>
+                                        </label>
+                                        <button type="submit" name="enviar" class="button expanded large-3 medium-4 small-6 right columns">Enviar</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <hr>
+                            <div class="row callout large-12 columns">
+                                <div class="row collapse comentario-usuario">
+                                    <div class="large-2 columns">
+                                        <img class="avatar" src="img/perfil1.jpg">
+                                    </div>
+                                    <div class="large-9 columns">
+                                        <p class="comentario-texto"><strong>Lorena Martinez</strong></p>
+                                        <p class="comentario-texto">Me parece super bueno, es muy buen dato, gracias...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row callout large-12 columns hide-for-small-only">
+                                <div class="row collapse comentario-usuario">
+                                    <div class="large-2 columns">
+                                        <img class="avatar" src="img/perfil2.jpg">
+                                    </div>
+                                    <div class="large-9 columns">
+                                        <p class="comentario-texto"><strong>Richi Peralta</strong></p>
+                                        <p class="comentario-texto">El otro día probe la receta y esta super sencilla, realmente es muy fácil!!! totalmente recomendada!!! Gracias</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row callout large-12 columns hide-for-small-only hide-for-medium-only">
+                                <div class="row collapse comentario-usuario">
+                                    <div class="large-2 columns">
+                                        <img class="avatar" src="img/perfil3.jpg">
+                                    </div>
+                                    <div class="large-9 columns">
+                                        <p class="comentario-texto"><strong>Macarena López</strong></p>
+                                        <p class="comentario-texto">Esta buena la receta y todo, pero me gustaria ver más opciones... medio que me quede a medias, gracias de antemano</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="callout">
+                        <div class="small-12 columns">
+                            <h3><strong>Tacos al Pastor</strong></h3>
+                            <h6 class="fecha">10 de enero de 2018</h6>
+                            <img src="img/tacos.jpg">
+                            <section>
+                                <h4>Ingredientes</h4>
+                                <div class="ingredient-list card-sm">
+                                    <ul>
+                                        <li>5 tortillas de maíz</li>
+                                        <li>1/2 kilo de carne</li>
+                                        <li>3 chorizos parrilleros</li>
+                                        <li>1 pechuga de pollo</li>
+                                        <li>Cilantro</li>
+                                        <li>Palta</li>
+                                        <li>Piña</li>
+                                        <li>1 cebolla</li>
+                                        <li>Sal y pimienta</li>
+                                    </ul>
+                                </div>
+                                <p>Asa el jitomate en un sartén o comal chico a fuego medio-alto, volteando constantemente, hasta que su piel se haya quemado y empiece a desprenderse, aproximadamente 10 minutos. Pela, corta a la mitad y desecha las semillas.
+                                Mientras, hierve suficiente agua en una olla mediana y agrega los chiles guajillo y ancho. Deja que hiervan hasta que se hayan suavizado, aproximadamente 5 minutos.</p>
+                                <p>Coloca los chiles hervidos en el vaso de la licuadora. Agrega los chiles chipotle, ajo, cebolla, vinagre, jugo de naranja, piña picada, clavos de olor, comino, orégano y jitomate asado. Licua hasta tener una salsa homogénea.
+                                Coloca la carne en un tazón de vidrio o bolsa con cierre y agrega la salsa asegurándote que cubrir toda la carne. Marina dentro del refrigerador durante por lo menos 4 horas o durante toda la noche.</p>
+                                <p>Precalienta un comal o el asador a fuego medio-alto. Asa los filetes marinados, volteando una vez, hasta que se hayan cocido completamente, aproximadamente 2 minutos por lado.
+                                    Mientras, asa las rebanadas de piña que se hayan quemado ligeramente, alrededor de 5 minutos por lado. Si lo deseas, puedes barnizarlas con la salsa de la carne mientras se asan.
+                                    Pica la carne y la piña.
+                                    Sirve la carne sobre tortillas calientes, agrega piña asada. Añade cilantro y cebolla picada, salsa de tomate y unas gotas de jugo de limón.</p>
+                            </section>
+                            <hr>
+                            <form>
+                                <div class="row">
+                                    <div class="large-12 columns">
+                                        <label>Dejanos un comentario:
+                                            <textarea class="deja-comentario" placeholder="Comentario"></textarea>
+                                        </label>
+                                        <button type="submit" name="enviar" class="button expanded large-3 medium-4 small-6 right columns">Enviar</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <hr>
+                            <div class="row callout large-12 columns">
+                                <div class="row collapse comentario-usuario">
+                                    <div class="large-2 columns">
+                                        <img class="avatar" src="img/perfil4.jpg">
+                                    </div>
+                                    <div class="large-9 columns">
+                                        <p class="comentario-texto"><strong>Daniel Rodas</strong></p>
+                                        <p class="comentario-texto">Me parece super bueno, es muy buen dato, gracias...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row callout large-12 columns hide-for-small-only">
+                                <div class="row collapse comentario-usuario">
+                                    <div class="large-2 columns">
+                                        <img class="avatar" src="img/perfil5.jpg">
+                                    </div>
+                                    <div class="large-9 columns">
+                                        <p class="comentario-texto"><strong>Su Pérez</strong></p>
+                                        <p class="comentario-texto">El otro día probe la receta y esta super sencilla, realmente es muy fácil!!! totalmente recomendada!!! Gracias</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row callout large-12 columns hide-for-small-only hide-for-medium-only">
+                                <div class="row collapse comentario-usuario">
+                                    <div class="large-2 columns">
+                                        <img class="avatar" src="img/perfil6.jpg">
+                                    </div>
+                                    <div class="large-9 columns">
+                                        <p class="comentario-texto"><strong>Alejandro Loayza</strong></p>
+                                        <p class="comentario-texto">Esta buena la receta y todo, pero me gustaria ver más opciones... medio que me quede a medias, gracias de antemano</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </form>
+            </div>
         </div>
+        <footer class="row columns small-12">
+            <p class="texto-footer">© DeCasa</p>
+        </footer>
     </div>
 
     <script src="js/jquery.js"></script>
